@@ -1,0 +1,9 @@
+{
+  "name": "@scss-extend/animate-scss",
+  "version": "1.0.0",
+  "description": "animate 的 scss 实现",
+  "main": "index.js",
+  "type": "module",
+  "author": "",
+  "license": "MIT"
+}

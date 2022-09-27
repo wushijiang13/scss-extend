@@ -1,0 +1,23 @@
+//attention_seekers
+@import "attention_seekers/bounce";
+@import "attention_seekers/flash";
+@import "attention_seekers/headShake";
+@import "attention_seekers/heartBeat";
+@import "attention_seekers/jello";
+@import "attention_seekers/pulse";
+@import "attention_seekers/rubberBand";
+@import "attention_seekers/shakeX";
+@import "attention_seekers/shakeY";
+@import "attention_seekers/swing";
+@import "attention_seekers/tada";
+@import "attention_seekers/wobble";
+
+@mixin run($animate-transition,$animate){
+  @debug type-of($animate-transition);
+  @debug type-of($animate);
+  //@if(type-of($animate-transition) != string){
+  //  @error "$animate-transition  must be of type string #{$animate-transition}."
+  //}
+  //@include $animate-transition;
+  //@include $animate;
+}

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "@scss-extend/docs",
+  "version": "1.0.0",
+  "description": "scss docs",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@scss-extend/animate-scss": "workspace:^1.0.0"
+  }
+}

@@ -1,0 +1,62 @@
+@import "./vars";
+
+@mixin animated {
+  animation-duration: $animate-duration;
+  animation-fill-mode: both;
+}
+
+.animated {
+  @include animated;
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  .repeat-1 {
+    animation-iteration-count: $animate-repeat;
+  }
+  .repeat-2 {
+    animation-iteration-count: calc($animate-repeat * 2);
+  }
+  .repeat-3 {
+    animation-iteration-count: calc($animate-repeat * 3);
+  }
+  .delay-1s {
+    animation-delay: $animate-delay;
+  }
+  .delay-2s {
+    animation-delay: calc($animate-delay * 2);
+  }
+  .delay-3s {
+    animation-delay: calc($animate-delay * 3);
+  }
+  .delay-4s {
+    animation-delay: calc($animate-delay * 4);
+  }
+  .delay-5s {
+    animation-delay: calc($animate-delay * 5);
+  }
+  .faster {
+    animation-duration: calc($animate-duration / 2);
+  }
+  .fast {
+    animation-duration: calc($animate-duration * 0.8);
+  }
+  .slow {
+    animation-duration: calc($animate-duration * 2);
+  }
+  .slower {
+    animation-duration: calc($animate-duration * 3);
+  }
+
+}
+
+@media print, (prefers-reduced-motion: reduce) {
+  .animated {
+    $animation-duration: 1ms !important;
+    $transition-duration: 1ms !important;
+    $animation-iteration-count: 1 !important;
+  }
+
+  .animated[class*='Out'] {
+    opacity: 0;
+  }
+}
