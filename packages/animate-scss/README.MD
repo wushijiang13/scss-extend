@@ -88,7 +88,7 @@ import '@scss-extend/animate-scss/animate.scss';
 | tada  | 放肆 |
 | wobble  | 摇晃 |
 
-#覆盖样式
+# 覆盖样式
 
 可新建一个`index.scss` 在后续引入，覆盖掉内部 `@minix` 的样式。即可达到自定义。
 
