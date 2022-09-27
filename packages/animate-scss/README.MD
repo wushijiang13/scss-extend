@@ -44,6 +44,7 @@ import '@scss-extend/animate-scss/animate.scss';
 三种使用方式
 
 1.`class` 使用
+> 如果是 sfc 需要对当前组件进项样式scss 设置 否则会解析为css 无法正确触发。`<style lang="scss">`
 
 ```html
 <button class="bounce">bounce</button>
