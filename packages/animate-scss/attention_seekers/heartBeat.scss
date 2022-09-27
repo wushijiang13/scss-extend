@@ -1,0 +1,38 @@
+@import "../_base";
+@import "../_vars";
+
+$sc1:scale(1);
+$sc1-3:scale(1.3);
+
+@keyframes heartBeat {
+  0% {
+    transform: $sc1;
+  }
+
+  14% {
+    transform: $sc1-3;
+  }
+
+  28% {
+    transform: $sc1;
+  }
+
+  42% {
+    transform: $sc1-3;
+  }
+
+  70% {
+    transform: $sc1;
+  }
+}
+
+@mixin heartBeat{
+  animation-name: heartBeat;
+  animation-duration: calc($animate-duration * 1.3);
+  animation-timing-function: ease-in-out;
+}
+
+.heartBeat {
+  @include animated;
+  @include heartBeat;
+}
