@@ -5,7 +5,7 @@
   "fixed": [],
   "linked": [["@scss-extend/*"]],
   "access": "restricted",
-  "baseBranch": "main",
+  "baseBranch": "master",
   "updateInternalDependencies": "patch",
   "ignore": []
 }
