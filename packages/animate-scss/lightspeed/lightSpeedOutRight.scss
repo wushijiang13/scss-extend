@@ -1,0 +1,22 @@
+@import "../_base";
+
+@keyframes lightSpeedOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0;
+  }
+}
+
+@mixin lightSpeedOutRight{
+  animation-timing-function: ease-in;
+  animation-name: lightSpeedOutRight;
+}
+
+.lightSpeedOutRight {
+  @include animated;
+  @include lightSpeedOutRight;
+}

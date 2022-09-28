@@ -1,0 +1,22 @@
+@import "../_base";
+
+@keyframes rotateOutUpRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  }
+}
+
+@mixin rotateOutUpRight{
+  animation-name: rotateOutUpRight;
+  transform-origin: left bottom;
+}
+
+.rotateOutUpRight {
+  @include animated;
+  @include rotateOutUpRight;
+}

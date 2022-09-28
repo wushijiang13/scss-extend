@@ -53,6 +53,48 @@
 @import "fading_entrances/fadeInUp";
 @import "fading_entrances/fadeInUpBig";
 
+//fading_exits
+@import "fading_exits/fadeOut";
+@import "fading_exits/fadeOutBottomLeft";
+@import "fading_exits/fadeOutBottomRight";
+@import "fading_exits/fadeOutDown";
+@import "fading_exits/fadeOutDownBig";
+@import "fading_exits/fadeOutLeft";
+@import "fading_exits/fadeOutLeftBig";
+@import "fading_exits/fadeOutRight";
+@import "fading_exits/fadeOutRightBig";
+@import "fading_exits/fadeOutTopLeft";
+@import "fading_exits/fadeOutTopRight";
+@import "fading_exits/fadeOutUp";
+@import "fading_exits/fadeOutUpBig";
+
+//flippers
+@import "flippers/flip";
+@import "flippers/flipInX";
+@import "flippers/flipInY";
+@import "flippers/flipOutX";
+@import "flippers/flipOutY";
+
+//lightspeed
+@import "lightspeed/lightSpeedInLeft";
+@import "lightspeed/lightSpeedInRight";
+@import "lightspeed/lightSpeedOutLeft";
+@import "lightspeed/lightSpeedOutRight";
+
+//rotating_entrances
+@import "rotating_entrances/rotateIn";
+@import "rotating_entrances/rotateInDownLeft";
+@import "rotating_entrances/rotateInDownRight";
+@import "rotating_entrances/rotateInUpLeft";
+@import "rotating_entrances/rotateInUpRight";
+
+//rotating_exits
+@import "rotating_exits/rotateOut";
+@import "rotating_exits/rotateOutDownLeft";
+@import "rotating_exits/rotateOutDownRight";
+@import "rotating_exits/rotateOutUpLeft";
+@import "rotating_exits/rotateOutUpRight";
+
 @mixin run($animate-transition,$animate){
   @debug type-of($animate-transition);
   @debug type-of($animate);

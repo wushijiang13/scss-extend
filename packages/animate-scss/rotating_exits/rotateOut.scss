@@ -1,0 +1,22 @@
+@import "../_base";
+
+@keyframes rotateOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0;
+  }
+}
+
+@mixin rotateOut{
+  animation-name: rotateOut;
+  transform-origin: center;
+}
+
+.rotateOut {
+  @include animated;
+  @include rotateOut;
+}

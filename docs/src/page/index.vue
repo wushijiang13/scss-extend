@@ -29,6 +29,12 @@
       {label:'bouncing_exits',childrenList:['bounceOut','bounceOutDown', 'bounceOutLeft','bounceOutRight','bounceOutUp']},
       {label:'fading_entrances',childrenList:['fadeIn','fadeInBottomLeft', 'fadeInBottomRight','fadeInDown','fadeInDownBig','fadeInLeft','fadeInLeftBig','fadeInRight',
         'fadeInRightBig','fadeInTopLeft','fadeInTopRight','fadeInUp','fadeInUpBig']},
+      {label:'fading_exits',childrenList:['fadeOut','fadeOutBottomLeft', 'fadeOutBottomRight','fadeOutDown','fadeOutDownBig','fadeOutLeft','fadeOutLeftBig','fadeOutRight',
+        'fadeOutRightBig','fadeOutTopLeft','fadeOutTopRight','fadeOutUp','fadeOutUpBig']},
+      {label:'flippers',childrenList:['flip','flipInX', 'flipInY','flipOutX','flipOutY']},
+      {label:'lightspeed',childrenList:['lightSpeedInLeft','lightSpeedInRight', 'lightSpeedOutLeft','lightSpeedOutRight']},
+      {label:'rotating_entrances',childrenList:['rotateIn','rotateInDownLeft', 'rotateInDownRight','rotateInUpLeft','rotateInUpRight']},
+      {label:'rotating_exits',childrenList:['rotateOut','rotateOutDownLeft', 'rotateOutDownRight','rotateOutUpLeft','rotateOutUpRight']},
       ];
   nextTick(()=>{
     animateRef.value.onanimationend= ()=>{

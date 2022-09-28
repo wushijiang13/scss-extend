@@ -1,0 +1,39 @@
+@import "../_base";
+
+$per400:perspective(400px);
+
+@keyframes flipInX {
+  from {
+    transform: $per400 rotate3d(1, 0, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: $per400 rotate3d(1, 0, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: $per400 rotate3d(1, 0, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: $per400 rotate3d(1, 0, 0, -5deg);
+  }
+
+  to {
+    transform: $per400;
+  }
+}
+
+@mixin flipInX{
+  backface-visibility: visible !important;
+  animation-name: flipInX;
+}
+
+.flipInX {
+  @include animated;
+  @include flipInX;
+}

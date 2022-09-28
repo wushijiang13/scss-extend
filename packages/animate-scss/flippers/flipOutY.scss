@@ -1,0 +1,31 @@
+@import "../_base";
+@import "../_vars";
+
+$per400:perspective(400px);
+
+@keyframes flipOutY {
+  from {
+    transform: $per400;
+  }
+
+  30% {
+    transform: $per400 rotate3d(0, 1, 0, -15deg);
+    opacity: 1;
+  }
+
+  to {
+    transform: $per400 rotate3d(0, 1, 0, 90deg);
+    opacity: 0;
+  }
+}
+
+@mixin flipOutY{
+  animation-duration: calc($animate-duration * 0.75);
+  backface-visibility: visible !important;
+  animation-name: flipOutY;
+}
+
+.flipOutY {
+  @include animated;
+  @include flipOutY;
+}

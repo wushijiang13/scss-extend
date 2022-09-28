@@ -1,0 +1,21 @@
+@import "../_base";
+
+@keyframes fadeOutRight {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@mixin fadeOutRight{
+  animation-name: fadeOutRight;
+}
+
+.fadeOutRight {
+  @include animated;
+  @include fadeOutRight;
+}
