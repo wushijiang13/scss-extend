@@ -1,0 +1,22 @@
+@import "../_base";
+
+@keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@mixin fadeInDownBig{
+  animation-name: fadeInDownBig;
+}
+
+.fadeInDownBig {
+  @include animated;
+  @include fadeInDownBig;
+}
