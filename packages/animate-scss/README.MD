@@ -147,6 +147,63 @@ import '@scss-extend/animate-scss/animate.scss';
 | fadeInUp  | 淡入淡出 |
 | fadeInUpBig  | 淡入放大 |
 
+### fading_exits
+
+|  key   | label  |
+|  ----  | ----  |
+| fadeOut  | 淡出 |
+| fadeOutBottomLeft  | 从底部向左淡出 |
+| fadeOutBottomRight  | 淡出右下角 |
+| fadeOutDown  | 淡出向下 |
+| fadeOutDownBig  | 淡出向下大 |
+| fadeOutLeft  | 淡出左侧 |
+| fadeOutLeftBig  | 淡出左侧大 |
+| fadeOutRight  | 淡出右侧 |
+| fadeOutRightBig  | 淡出右大 |
+| fadeOutTopLeft  | 淡出顶部向左 |
+| fadeOutTopRight  | 淡出顶部右侧 |
+| fadeOutUp  | 淡出向上 |
+| fadeOutUpBig  | 淡出放大 |
+
+### flippers
+
+|  key   | label  |
+|  ----  | ----  |
+| flip  | 轻弹 |
+| flipInX  | 翻转进入X |
+| flipInY  | 翻转进入Y |
+| flipOutX  | 翻转退出X |
+| flipOutY  | 翻转退出Y |
+
+### lightspeed
+
+|  key   | label  |
+|  ----  | ----  |
+| lightSpeedInLeft  | 左侧灯光速度 |
+| lightSpeedInRight  | 灯光向右速度 |
+| lightSpeedOutLeft  | 灯光向左速度 |
+| lightSpeedOutRight  | 灯光速度向右输出 |
+
+### rotating_entrances
+
+|  key   | label  |
+|  ----  | ----  |
+| rotateIn  | 旋转进入 |
+| rotateInDownLeft  | 向左向下旋转 |
+| rotateInDownRight  | 向下向右旋转 |
+| rotateInUpLeft  | 旋转左上角 |
+| rotateInUpRight  | 旋转右上角 |
+
+### rotating_exits
+
+|  key   | label  |
+|  ----  | ----  |
+| rotateOut  | 向外旋转 |
+| rotateOutDownLeft  | 向外向下向左旋转 |
+| rotateOutDownRight  | 旋转向外向下向右 |
+| rotateOutUpLeft  | 向外向上向左旋转 |
+| rotateOutUpRight  | 向外向右旋转 |
+
 # 覆盖样式
 
 可新建一个`index.scss` 在后续引入，覆盖掉内部 `@minix` 的样式。即可达到自定义。
