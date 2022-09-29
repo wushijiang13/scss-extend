@@ -204,7 +204,7 @@ import '@scss-extend/animate-scss/animate.scss';
 | rotateOutUpLeft  | 向外向上向左旋转 |
 | rotateOutUpRight  | 向外向右旋转 |
 
-### sliding_entrances 123
+### sliding_entrances 
 
 |  key   | label  |
 |  ----  | ----  |
