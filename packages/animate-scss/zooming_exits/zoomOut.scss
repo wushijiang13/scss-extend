@@ -1,0 +1,25 @@
+@import "../_base";
+
+@keyframes zoomOut {
+  from {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@mixin zoomOut{
+  animation-name: zoomOut;
+}
+
+.zoomOut {
+  @include animated;
+  @include zoomOut;
+}

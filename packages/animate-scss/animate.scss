@@ -95,6 +95,38 @@
 @import "rotating_exits/rotateOutUpLeft";
 @import "rotating_exits/rotateOutUpRight";
 
+//sliding_entrances
+@import "sliding_entrances/slideInDown";
+@import "sliding_entrances/slideInLeft";
+@import "sliding_entrances/slideInRight";
+@import "sliding_entrances/slideInUp";
+
+//sliding_exits
+@import "sliding_exits/slideOutDown";
+@import "sliding_exits/slideOutLeft";
+@import "sliding_exits/slideOutRight";
+@import "sliding_exits/slideOutUp";
+
+//specials
+@import "specials/hinge";
+@import "specials/jackInTheBox";
+@import "specials/rollIn";
+@import "specials/rollOut";
+
+//zooming_entrances
+@import "zooming_entrances/zoomIn";
+@import "zooming_entrances/zoomInDown";
+@import "zooming_entrances/zoomInLeft";
+@import "zooming_entrances/zoomInRight";
+@import "zooming_entrances/zoomInUp";
+
+//zooming_exits
+@import "zooming_exits/zoomOut";
+@import "zooming_exits/zoomOutDown";
+@import "zooming_exits/zoomOutLeft";
+@import "zooming_exits/zoomOutRight";
+@import "zooming_exits/zoomOutUp";
+
 @mixin run($animate-transition,$animate){
   @debug type-of($animate-transition);
   @debug type-of($animate);

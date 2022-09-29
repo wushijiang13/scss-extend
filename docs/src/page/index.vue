@@ -35,6 +35,11 @@
       {label:'lightspeed',childrenList:['lightSpeedInLeft','lightSpeedInRight', 'lightSpeedOutLeft','lightSpeedOutRight']},
       {label:'rotating_entrances',childrenList:['rotateIn','rotateInDownLeft', 'rotateInDownRight','rotateInUpLeft','rotateInUpRight']},
       {label:'rotating_exits',childrenList:['rotateOut','rotateOutDownLeft', 'rotateOutDownRight','rotateOutUpLeft','rotateOutUpRight']},
+      {label:'sliding_entrances',childrenList:['slideInDown','slideInLeft', 'slideInRight','slideInUp']},
+      {label:'sliding_exits',childrenList:['slideOutDown','slideOutLeft', 'slideOutRight','slideOutUp']},
+      {label:'specials',childrenList:['hinge','jackInTheBox', 'rollIn','rollOut']},
+      {label:'zooming_entrances',childrenList:['zoomIn','zoomInDown', 'zoomInLeft','zoomInRight','zoomInUp']},
+      {label:'zooming_exits',childrenList:['zoomOut','zoomOutDown', 'zoomOutLeft','zoomOutRight','zoomOutUp']},
       ];
   nextTick(()=>{
     animateRef.value.onanimationend= ()=>{

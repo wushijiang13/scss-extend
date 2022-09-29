@@ -194,7 +194,7 @@ import '@scss-extend/animate-scss/animate.scss';
 | rotateInUpLeft  | 旋转左上角 |
 | rotateInUpRight  | 旋转右上角 |
 
-### rotating_exits
+### rotating_exits  
 
 |  key   | label  |
 |  ----  | ----  |
@@ -203,6 +203,53 @@ import '@scss-extend/animate-scss/animate.scss';
 | rotateOutDownRight  | 旋转向外向下向右 |
 | rotateOutUpLeft  | 向外向上向左旋转 |
 | rotateOutUpRight  | 向外向右旋转 |
+
+### sliding_entrances 123
+
+|  key   | label  |
+|  ----  | ----  |
+| slideInDown | 向下滑动 |
+| slideInLeft | 向左滑动 |
+| slideInRight | 向右滑动 |
+| slideInUp | 向上滑动 |
+
+### sliding_exits
+
+|  key   | label  |
+|  ----  | ----  |
+| slideOutDown | 向下滑出 |
+| slideOutLeft | 向左滑出 |
+| slideOutRight | 向右滑出 |
+| slideOutUp | 向上滑出 |
+
+### specials
+
+|  key   | label  |
+|  ----  | ----  |
+| hinge | 铰链 |
+| jackInTheBox | 盒子中的插孔 |
+| rollIn | 滚入 |
+| rollOut | 滚出 |
+
+### zooming_entrances
+
+|  key   | label  |
+|  ----  | ----  |
+| zoomIn | 放大 |
+| zoomInDown | 向下放大进入 |
+| zoomInLeft | 向左放大进入 |
+| zoomInRight | 向右放大进入 |
+| zoomInUp | 向上放大进入 |
+
+### zooming_exits
+
+|  key   | label  |
+|  ----  | ----  |
+| zoomOut | 缩小 |
+| zoomOutDown | 向下缩小退出 |
+| zoomOutLeft | 向左缩小退出 |
+| zoomOutRight | 向右缩小退出 |
+| zoomOutUp | 向上缩小退出 |
 
 # 覆盖样式
 
